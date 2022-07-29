@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.container {
+  padding: 3em 5em;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  width: 35vw;
+  justify-content: space-around;
+}
+
+.list-item {
+  font-size: 22px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 7px 45px;
+  border-radius: 10px;
+  color: #444444;
+  font-size: 18px;
+}
+
+.button-group {
+  display: flex;
+}
+
+.search-icon {
+  padding: 0 15px;
+  margin-top: 4px;
+}
+
+/*  */
+
+.hero-container {
+  display: flex;
+  position: relative;
+}
+
+.hero-container > div > img {
+  position: absolute;
+  left: 0;
+  top: 5em;
+  width: 23vw;
+}
+
+.square > img {
+  width: 20vw;
+  position: absolute;
+  left: 7em;
+  top: 20em;
+}
+
+.star > img {
+  position: absolute;
+  right: 200px;
+  top: 4em;
+  width: 60px;
+}
+
+.globe > img {
+  position: absolute;
+  left: 45em;
+  top: 2em;
+  width: 60px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  margin-left: 35%;
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-heading {
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.hero-description {
+  font-size: 15px;
+  padding: 15px 10px;
+  margin: 0 200px;
+  text-align: center;
+  color: #444444;
+}
+
+.button-email {
+  background-color: #fff;
+  border: 2px solid #000;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.button-join {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.contact-heading {
+  color: #5f5f5f;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.hero-container-right > div {
+  padding: 2em 0;
+}
+
+.icons {
+  display: flex;
+  width: 15vw;
+  justify-content: space-around;
+}
+
+.star-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+}
+
+.star-bottom img {
+  height: 50px;
+}
