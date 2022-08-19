@@ -29,7 +29,7 @@ body {
   justify-content: space-between;
 }
 
-.nav-button {
+.nav-button button {
   background-color: #fff;
   border: 2px solid #000;
   padding: 7px 45px;
@@ -54,7 +54,7 @@ body {
   position: relative;
 }
 
-.hero-container > div > img {
+.hero-image img {
   position: absolute;
   left: 0;
   top: 5em;
@@ -148,4 +148,101 @@ body {
 
 .star-bottom img {
   height: 50px;
+}
+
+/*  */
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0;
+    margin: 20px;
+    /* width: 100vw; */
+    overflow-x: hidden;
+  }
+
+  .navbar-container {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar-container div:nth-child(1) img {
+    width: 90px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .search-icon {
+    display: none;
+  }
+  .nav-button {
+    margin: 0 20px;
+  }
+  .nav-button button {
+    width: 70px;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  /* hero container */
+
+  .star,
+  .globe {
+    display: none;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-heading {
+    font-size: 26px;
+  }
+
+  .hero-description {
+    font-size: 12px;
+    margin: 0;
+    inline-size: 300px;
+  }
+  /*  */
+  .hero-image {
+    height: 120px;
+  }
+  .square > img {
+    width: 180px;
+    top: 150px;
+    left: 130px;
+  }
+
+  .hero-image img {
+    height: 250px;
+    width: 200px;
+    top: 40px;
+    left: 70px;
+  }
+
+  .hero-container-right {
+    margin: 200px 0 0 0;
+  }
+
+  .button-email,
+  .button-join {
+    width: 150px;
+    font-size: 14px;
+    margin: 0 10px;
+  }
+
+  /*  */
+  .contact-heading {
+    font-size: 16px;
+  }
+
+  .icons span {
+    margin: 0 10px;
+  }
+  .icons span img {
+    width: 30px;
+  }
 }

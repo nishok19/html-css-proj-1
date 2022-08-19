@@ -6,6 +6,8 @@ The first project in the class and I have learnt so much about positioning in CS
 
 This project primarily focuses on the position property in CSS
 
+## [Project Live Link](https://github.com/nishok19/html-css-proj-1)
+
 ## Efforts
 
 This project took around 2 hours to build along with lot of research and google since its the very first project.
